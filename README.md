@@ -8,7 +8,7 @@ This project develops an information retrieval system tailored for the COVID-19 
 
 Features
 
-BERT Embeddings: Leverage BERT model for generating high-quality vector embeddings of the textual data.
+BERT Embeddings: Leverage BERT(bert-base-uncased) model for generating high-quality vector embeddings of the textual data.
 Cosine Similarity Scoring: Utilize cosine similarity to rank documents based on their relevance to a user query.
 Preprocessing: Implements preprocessing steps on the CORD-19 dataset to optimize the text data for better model performance.
 Top-N Retrieval: Retrieves and displays the top N documents that best match the user's search query.
@@ -23,7 +23,7 @@ Technology Stack
 
 Python: Primary programming language.
 
-Transformers by Hugging Face: For utilizing pretrained BERT models.
+Transformers by Hugging Face: For utilizing pretrained BERT(bert-base-uncased) model.
 
 NumPy: For handling large, multi-dimensional arrays and matrices.
 
